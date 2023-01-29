@@ -1,12 +1,9 @@
 # InstaSpring
-iOS app that immediately resprings your Device after you open it.
+iOS app that immediately resprings your device after you open it!
 
-# Why tho?
-Cuz someone on Reddit asked me for this. :)
-
-# Warning
-The app doesn't work on iOS 13 and lower!
+# Support
+Untested on many versions, let me know if it works for your version!
 
 # Thanks
-- https://github.com/elihwyma/Respring
+- haxi0 for the original [InstaSpring](https://github.com/haxi0/InstaSpring)
 - janneske#5158 for the amazing icon!
