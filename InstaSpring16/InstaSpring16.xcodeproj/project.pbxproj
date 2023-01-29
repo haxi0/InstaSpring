@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		250F453E2986686300DD8A86 /* respring.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F453D2986686200DD8A86 /* respring.m */; };
 		6D59A8D428DA1752001F97BC /* InstaSpring16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A8D328DA1752001F97BC /* InstaSpring16App.swift */; };
-		6D59A8D628DA1752001F97BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A8D528DA1752001F97BC /* ContentView.swift */; };
 		6D59A8D828DA1754001F97BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A8D728DA1754001F97BC /* Assets.xcassets */; };
 		6D59A8DB28DA1754001F97BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A8DA28DA1754001F97BC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,9 +17,9 @@
 		250F453B2986686200DD8A86 /* InstaSpring16-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaSpring16-Bridging-Header.h"; sourceTree = "<group>"; };
 		250F453C2986686200DD8A86 /* respring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = respring.h; sourceTree = "<group>"; };
 		250F453D2986686200DD8A86 /* respring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = respring.m; sourceTree = "<group>"; };
+		25378CDB2987260B0008553C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6D59A8D028DA1752001F97BC /* InstaSpring16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSpring16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D59A8D328DA1752001F97BC /* InstaSpring16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSpring16App.swift; sourceTree = "<group>"; };
-		6D59A8D528DA1752001F97BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D59A8D728DA1754001F97BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D59A8DA28DA1754001F97BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,8 +54,8 @@
 		6D59A8D228DA1752001F97BC /* InstaSpring16 */ = {
 			isa = PBXGroup;
 			children = (
+				25378CDB2987260B0008553C /* Info.plist */,
 				6D59A8D328DA1752001F97BC /* InstaSpring16App.swift */,
-				6D59A8D528DA1752001F97BC /* ContentView.swift */,
 				250F453C2986686200DD8A86 /* respring.h */,
 				250F453D2986686200DD8A86 /* respring.m */,
 				6D59A8D728DA1754001F97BC /* Assets.xcassets */,
@@ -145,7 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D59A8D628DA1752001F97BC /* ContentView.swift in Sources */,
 				250F453E2986686300DD8A86 /* respring.m in Sources */,
 				6D59A8D428DA1752001F97BC /* InstaSpring16App.swift in Sources */,
 			);
@@ -280,12 +278,10 @@
 				DEVELOPMENT_TEAM = U67AKNW8PW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaSpring16/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = InstaSpring16;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -293,7 +289,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avangelista.InstaSpring16;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -319,12 +315,10 @@
 				DEVELOPMENT_TEAM = U67AKNW8PW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaSpring16/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = InstaSpring16;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -332,7 +326,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avangelista.InstaSpring16;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
