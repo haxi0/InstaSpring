@@ -1,10 +1,9 @@
 import SwiftUI
 
 @main
-struct InstaSpring16App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        respring()
+        return true
     }
 }
