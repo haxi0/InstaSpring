@@ -3,6 +3,16 @@
 #include <mach/mach.h>
 #include <dirent.h>
 
+void respring(void);
+
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        respring();
+    }
+}
+
+// Credit to Ian Beer
+
 kern_return_t
 bootstrap_look_up(mach_port_t bp, const char* service_name, mach_port_t *sp);
 
@@ -104,5 +114,5 @@ void xpc_crasher(char* service_name) {
 }
 
 void respring(void) {
-    xpc_crasher("com.apple.frontboard.systemappservices");
+    xpc_crasher("com.apple.backboard.TouchDeliveryPolicyServer");
 }
