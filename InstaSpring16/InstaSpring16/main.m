@@ -3,6 +3,14 @@
 #include <mach/mach.h>
 #include <dirent.h>
 
+void respring(void);
+
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        respring();
+    }
+}
+
 // Credit to Ian Beer
 
 kern_return_t
@@ -106,6 +114,5 @@ void xpc_crasher(char* service_name) {
 }
 
 void respring(void) {
-    // Crash backboardd
     xpc_crasher("com.apple.backboard.TouchDeliveryPolicyServer");
 }
